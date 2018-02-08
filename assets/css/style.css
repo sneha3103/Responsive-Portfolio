@@ -1,0 +1,290 @@
+body{
+	/**background-color: #d4cfcac9
+	margin: 0;
+	padding: 0;**/ 
+	background-image: url("../images/regal.png");
+	width: 100%;
+	margin: auto;
+	
+}
+
+.container {
+	width: 960px;
+}
+
+.header {
+	width: 22%;
+    margin: 20px;
+    text-align: center;
+    position: static;
+    top: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+li{
+	list-style: none;
+	float: left;
+	margin-left: 15px;
+	position: relative;
+	right: 20px;
+	bottom: 150px;
+	
+}
+
+.nav {
+	float: right;
+	margin: 90px;
+}
+
+.nav a:hover {
+	background-color: #7f9bb6;
+	color: white;
+}
+.connect {
+	float: left;
+    text-align: center;
+    position: fixed;
+    top: 150px;
+    right: 5px;
+    background-color: rgb(211, 211, 211);
+    width: 300px;
+    border: 15px solid #7f9bb6;
+    padding: 15px;
+    margin: 15px;
+    margin-right: 17px;
+    color: rgb(70, 130, 199);
+}
+
+
+.footer {
+	text-align: center;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: #7f9bb6;
+	color: white;
+	padding: 15px;
+}
+
+.placeholderone {
+	margin-right: 10px;
+	position: relative;
+	top: 15px;
+}
+
+.placeholdertwo {
+	position: relative;
+	top: 15px;
+}
+
+.placeholderthree {
+	position: absolute;
+	left: 1px;
+	float: left;
+	bottom: 30px;
+}
+
+.placeholderfour {
+	position: relative;
+	top: 300px;
+	right: 290px;
+}
+
+.placeholderfive {
+	position: relative;
+	top: 375px;
+	right: 870px;
+	
+}
+
+.inputform {
+	position: absolute;
+	margin: 20px;
+	top: 137px;
+	padding: 12px;
+	padding-bottom: 20px;
+}
+
+input[type=text] {
+	padding: 12px;
+    height: 12px;
+    width: 224%;
+}
+
+input[type=message] {
+	padding: 12px;
+    height: 191px;
+    width: 357px;
+    margin-left: 30px;
+    position: absolute;
+    margin-top: 196px;
+}
+
+
+textarea {
+	position: absolute;
+    top: 155px;
+    left: 12px;
+}
+
+#submit {
+
+	position: absolute;
+    margin-left: 2px;
+    margin-top: 176px;
+}
+
+h1 {
+	color: white;
+    background-color: #7f9bb6;
+    margin: 25px;
+    position: relative;
+    top: 24px;
+    left: 58px;
+    padding: 10px;
+}
+
+p, h1, {
+	font-family: 'Roboto Slab', serif;
+}
+
+
+img{
+	float: left;
+	width: 10%
+	padding: 15px;
+	margin: 20px;
+}
+
+
+
+
+
+/** Media Screens for Index Page **/
+
+@media screen and (max-width: 980px) {
+    body {
+		background-color: pink;
+        font-size: 15px;
+	}
+
+	.connect {
+		width: 275px;
+        height: 133px;
+	}
+
+}
+
+@media screen and (max-width: 768px) {
+	body {
+		background-color: lightblue;
+		font-size: 17px;
+		margin-left: 10px;
+	}
+
+	.content {
+		top: 19px;
+        position: relative;
+	}
+
+	.connect {
+		position: relative;
+        top: -63px;
+        left: 482px;
+	}
+}
+
+@media screen and (max-width: 640px) {
+
+
+	
+	}
+
+	
+}
+
+/** Media Screens for Index Page ENDS **/
+
+/** Media Screens for Portfolio (not working?) Page BEGINS **/
+
+@media screen and (max-width: 980px)  {
+   
+	.placeholdertwo {
+		top: -195px;
+		position: relative;
+	}
+	
+	.placeholderthree {
+		position: absolute;
+		left: 1px;
+		float: left;
+		bottom: 164px;
+	}
+
+	.placeholderfour{
+		position: relative;
+        top: 97px;
+        right: 290px;
+	}
+
+	.placeholderfive {
+		position: relative;
+		top: 102px;
+		right: -1px;
+   }
+	
+}
+
+
+
+
+
+
+/** Media Screens for Contact Page BEGINS **/
+
+@media screen and (max-width: 980px) {
+
+	.connect {
+		position: relative;
+		top: 60px;
+		left: 530px;
+	}
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+      h1{
+		margin-right: -10px;
+	  }
+
+	  .connect {
+		position: relative;
+		top: -153px;
+	  }
+
+}
+
+@media screen and (max-width: 640px) {
+
+	  .nav {
+		float: right;
+		margin: 63px;
+	  }
+
+	  h1 {
+		margin-right: -44px;
+	  }
+
+	  .connect {
+		position: relative;
+		top: -64px;
+	  }
+}
+
+/** Media Screens for Contact Page ENDS **/
