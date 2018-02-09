@@ -43,14 +43,15 @@ li{
 	background-color: #7f9bb6;
 	color: white;
 }
+
 .connect {
-	float: left;
+	float: right;
     text-align: center;
-    position: fixed;
-    top: 150px;
+    position: relative;
+    top: 60px;
     right: 5px;
     background-color: rgb(211, 211, 211);
-    width: 300px;
+    width: 280px;
     border: 15px solid #7f9bb6;
     padding: 15px;
     margin: 15px;
@@ -78,14 +79,15 @@ li{
 
 .placeholdertwo {
 	position: relative;
-	top: 15px;
+    top: 17px;
+    left: 67px;
 }
 
 .placeholderthree {
-	position: absolute;
-	left: 1px;
-	float: left;
-	bottom: 30px;
+	position: relative;
+    left: 1px;
+    float: left;
+    bottom: 0px;
 }
 
 .placeholderfour {
@@ -96,8 +98,8 @@ li{
 
 .placeholderfive {
 	position: relative;
-	top: 375px;
-	right: 870px;
+    bottom: 288px;
+    left: 357px;
 	
 }
 
@@ -144,7 +146,7 @@ h1 {
     margin: 25px;
     position: relative;
     top: 24px;
-    left: 58px;
+    left: 101px;
     padding: 10px;
 }
 
@@ -160,6 +162,11 @@ img{
 	margin: 20px;
 }
 
+.main-content {
+	width: 800px; 
+	height: 900px;
+}
+
 
 
 
@@ -167,44 +174,45 @@ img{
 /** Media Screens for Index Page **/
 
 @media screen and (max-width: 980px) {
-    body {
-		background-color: pink;
-        font-size: 15px;
-	}
 
-	.connect {
-		width: 275px;
+    .connect {
+        width: 275px;
         height: 133px;
-	}
+    }
 
 }
 
 @media screen and (max-width: 768px) {
-	body {
-		background-color: lightblue;
-		font-size: 17px;
-		margin-left: 10px;
-	}
 
-	.content {
-		top: 19px;
+    .content {
+        top: 19px;
         position: relative;
-	}
+    }
 
-	.connect {
-		position: relative;
+    .connect {
+        position: relative;
         top: -63px;
         left: 482px;
-	}
+    }
 }
 
 @media screen and (max-width: 640px) {
+	.container {
+		width: 70%;
 
-
-	
 	}
 
-	
+	img {
+		width: 28%;
+        height: 13%;
+	}
+
+	h1 {
+		margin-right: -58px;
+		left: 43px;
+	}
+
+    
 }
 
 /** Media Screens for Index Page ENDS **/
@@ -213,34 +221,54 @@ img{
 
 @media screen and (max-width: 980px)  {
    
-	.placeholdertwo {
-		top: -195px;
-		position: relative;
-	}
-	
-	.placeholderthree {
-		position: absolute;
-		left: 1px;
-		float: left;
-		bottom: 164px;
-	}
-
-	.placeholderfour{
-		position: relative;
-        top: 97px;
-        right: 290px;
-	}
-
-	.placeholderfive {
-		position: relative;
-		top: 102px;
-		right: -1px;
-   }
-	
+   .main-content {
+	bottom: 241px;
+    position: relative;
 }
 
+   .connect {
+    position: relative;
+    top: 13px;
+    left: 616px;
+   }
+    
+}
+
+@media screen and (max-width: 768px) {
+     h1 {
+		 margin-right: -31px;
+	 }
+
+	 .main-content {
+		position: relative;
+		bottom: 204px;
+	 }
 
 
+     .placeholdertwo {
+		bottom: 237px;
+		position: relative;
+	}
+
+	 .placeholderthree {
+		bottom: 261px;
+		position: relative;
+	 }
+
+	 .placeholderfour {
+		 top:17px;
+		 position: relative;
+	 }
+
+	 .placeholderfive {
+		 bottom: 528px;
+		 position: relative;
+	 }
+}
+
+@media screen and (max-width: 640px) {
+	
+}
 
 
 
@@ -248,43 +276,43 @@ img{
 
 @media screen and (max-width: 980px) {
 
-	.connect {
-		position: relative;
-		top: 60px;
-		left: 530px;
-	}
+    .connect {
+        position: relative;
+        top: 60px;
+        left: 530px;
+    }
 }
 
 
 
 
 @media screen and (max-width: 768px) {
-      h1{
-		margin-right: -10px;
-	  }
+      h1 {
+         margin-right: -10px;
+         }
 
-	  .connect {
-		position: relative;
-		top: -153px;
-	  }
+      .connect {
+        position: relative;
+        top: -153px;
+      }
 
 }
 
 @media screen and (max-width: 640px) {
 
-	  .nav {
-		float: right;
-		margin: 63px;
-	  }
+      .nav {
+        float: right;
+        margin: 63px;
+      }
 
-	  h1 {
-		margin-right: -44px;
-	  }
+      h1 {
+        margin-right: -44px;
+      }
 
-	  .connect {
-		position: relative;
-		top: -64px;
-	  }
+      .connect {
+        position: relative;
+        top: -64px;
+      }
 }
 
 /** Media Screens for Contact Page ENDS **/
