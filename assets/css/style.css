@@ -4,7 +4,7 @@ body{
 	padding: 0;**/ 
 	background-image: url("../images/regal.png");
 	width: 100%;
-	margin: auto;
+	margin: 0;
 	
 }
 
@@ -12,12 +12,43 @@ body{
 	width: 960px;
 }
 
+/**Header and Nav styling BEGINS**/
+
 .header {
-	width: 22%;
-    margin: 20px;
-    text-align: center;
-    position: static;
+	width: 100%;
+	text-align: center;
     top: 0;
+}
+
+
+h1 {
+	color: white;
+    background-color: #7f9bb6
+    
+}
+
+p, h1, {
+	font-family: 'Roboto Slab', serif;
+}
+
+#name {
+	margin: 0;
+}
+
+#contactname {
+	margin: 0;
+}
+
+#portfolioname {
+	margin: 0;
+}
+
+#aboutme {
+	position: relative;
+    left: 113px;
+    top: 31px;
+    color: #1b5288;
+    font-size: 41px;
 }
 
 a {
@@ -37,12 +68,17 @@ li{
 .nav {
 	float: right;
 	margin: 90px;
+	margin-top: 107px;
 }
 
 .nav a:hover {
 	background-color: #7f9bb6;
 	color: white;
 }
+
+/**Header and Nav styling ENDS**/
+
+/**Connect Social Media Links BEGINS**/
 
 .connect {
 	float: right;
@@ -56,9 +92,27 @@ li{
     padding: 15px;
     margin: 15px;
     margin-right: 17px;
-    color: rgb(70, 130, 199);
+    color: #1b5288;
 }
 
+#connectindex {
+	position: relative;
+	top: -311px;
+}
+
+#connectportfolio {
+	position: relative;
+	left: 380px;
+}
+
+#connectcontact {
+	position: relative;
+    left: 400px;
+}
+
+
+
+/**Connect Social Media Links ENDS**/
 
 .footer {
 	text-align: center;
@@ -104,17 +158,16 @@ li{
 }
 
 .inputform {
-	position: absolute;
-	margin: 20px;
-	top: 137px;
-	padding: 12px;
-	padding-bottom: 20px;
+	position: relative;
+	top: 70px;
+	left: 38px;
 }
 
 input[type=text] {
 	padding: 12px;
-    height: 12px;
-    width: 224%;
+	width: 30%;
+    position: relative;
+    top: 0px;
 }
 
 input[type=message] {
@@ -128,9 +181,9 @@ input[type=message] {
 
 
 textarea {
-	position: absolute;
-    top: 155px;
-    left: 12px;
+	position: relative;
+    top: 147px;
+    left: -64px;
 }
 
 #submit {
@@ -138,20 +191,6 @@ textarea {
 	position: absolute;
     margin-left: 2px;
     margin-top: 176px;
-}
-
-h1 {
-	color: white;
-    background-color: #7f9bb6;
-    margin: 25px;
-    position: relative;
-    top: 24px;
-    left: 101px;
-    padding: 10px;
-}
-
-p, h1, {
-	font-family: 'Roboto Slab', serif;
 }
 
 
