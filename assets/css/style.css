@@ -125,10 +125,24 @@ li{
 	padding: 15px;
 }
 
+.title {
+	position: absolute;
+    margin-top: 5px;
+    margin-left: 34px;
+    top: 265px;
+    z-index: 5;
+    height: 45px;
+    width: 222px;
+    background-color: #f5f5f5;
+    color: #ff69b4;
+	font-weight: bold;
+	text-align: center;
+}
+
 .placeholderone {
 	margin-right: 10px;
 	position: relative;
-	top: 15px;
+	top: 19px;
 }
 
 .placeholdertwo {
