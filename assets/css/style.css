@@ -1,27 +1,218 @@
-body{
+body, html {
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+	color: #666;
+	/* background-image: url("../images/regal.png"); */
+}
+
+.pimg1, .pimg2, .pimg3, .pimg4, .pimg5 {
+    position: relative;
+    opacity: 0.70;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    /* if you want to remove effect, you can switch fixed to scroll*/
+}
+/* #snehabio {
+    height: 250px;
+    width: 250px;
+} */
+
+.pimg1 {
+    background-image: url("../images/pic1.jpg");
+    /* background-repeat: no-repeat; */
+    min-height: 100%;
+}
+
+.pimg2 {
+    background-image: url("../images/pic2.jpg");
+    min-height: 400px;
+}
+
+.pimg3 {
+    background-image: url("../images/pic3.jpg");
+    min-height: 400px;
+}
+
+.pimg4 {
+	background-image: url("../images/pic4.jpg");
+    min-height: 600px;
+}
+
+.pimg5 {
+	background-image: url("../images/pic5.jpg");
+    min-height: 600px;
+}
+
+.section {
+    text-align: center;
+    padding: 50px 80px;
+}
+
+.section-light {
+    background-color: #f4f4f4;
+    color: #666;
+}
+
+.section-dark {
+    background-color: #282e34;
+    color: #ddd;
+}
+
+.ptext {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+
+.ptext .border {
+    background-color: #111;
+    color: #fff;
+    padding: 20px;
+
+}
+
+.ptext .border.trans{
+    background-color: transparent;
+}
+
+@media screen and (max-width: 568px) {
+    .pimg1 .pimg2 .pimg3{
+        background-attachment: scroll;
+    }
+}
+
+/* general styles */
+html, body {
+    height: 100%;
+    width: 100%;
+  }
+  /* padded section */
+  .pad-section {
+    padding: 50px 0;
+  }
+  .pad-section img {
+    width: 100%;
+  }
+  /* vertical-centered text */
+  .text-vcenter {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+  }
+  .text-vcenter h1 {
+    font-size: 4.5em;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+  }
+  /* additional sections */
+  #home {
+    background: url(../images/home.jpg) no-repeat center center fixed;
+    display: table;
+    height: 100%;
+    position: relative;
+    width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  /* #about {
+  } */
+  #services {
+    background-color: #306d9f;
+    color: #306d9f;
+  }
+
+  #productTitle {
+      color: #FFFFFF;
+  }
+
+  #services .glyphicon {
+    border: 2px solid #FFFFFF;
+    border-radius: 50%;
+    display: inline-block;
+    font-size: 60px;
+    height: 140px;
+    line-height: 140px;
+    text-align: center;
+    vertical-align: middle;
+    width: 140px;
+  }
+  #information {
+    background: url(../images/estate.jpg) no-repeat center center fixed;
+    display: table;
+    height: 800px;
+    position: relative;
+    width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  #information .panel {
+    opacity: 0.85;
+  }
+  #google_map {
+    height: 500px;
+  }
+  footer {
+    padding: 20px 0;
+  }
+  footer .glyphicon {
+    color: #333333;
+    font-size: 60px;
+  }
+  footer .glyphicon:hover {
+    color: #306d9f;
+  }
+
+
+
+
+
+
+
+
+
+
+
+/* body{ */
 	/**background-color: #d4cfcac9
 	margin: 0;
 	padding: 0;**/ 
-	background-image: url("../images/regal.png");
-	width: 100%;
-	margin: 0;
+	/* background-image: url("../images/regal.png"); */
+	/* width: 100%; */
+	/* margin: 0; */
 	
-}
+/* } */
 
-.container {
-	width: 960px;
-}
+/* .container { */
+	/* width: 960px; */
+/* } */
 
 /**Header and Nav styling BEGINS**/
 
-.header {
-	width: 100%;
+/* .header { */
+	/* width: 100%;
 	text-align: center;
     top: 0;
-}
+} */
 
 
-h1 {
+/* h1 {
 	color: white;
     background-color: #7f9bb6
     
@@ -29,9 +220,9 @@ h1 {
 
 p, h1, {
 	font-family: 'Roboto Slab', serif;
-}
+} */
 
-#name {
+/* #name {
 	margin: 0;
 }
 
@@ -41,17 +232,17 @@ p, h1, {
 
 #portfolioname {
 	margin: 0;
-}
+} */
 
-#aboutme {
+/* #aboutme {
 	position: relative;
     left: 113px;
     top: 31px;
     color: #1b5288;
     font-size: 41px;
-}
+} */
 
-a {
+/* a {
 	text-decoration: none;
 }
 
@@ -69,12 +260,12 @@ li{
 	float: right;
 	margin: 90px;
 	margin-top: 107px;
-}
+} */
 
-.nav a:hover {
+/* .nav a:hover {
 	background-color: #7f9bb6;
 	color: white;
-}
+} */
 
 /**Header and Nav styling ENDS**/
 
@@ -320,6 +511,10 @@ img{
 }
 
 @media screen and (max-width: 640px) {
+	.placeholdertwo {
+		top: 13px;
+		left: -2px;
+		position: relative;
 	
 }
 
