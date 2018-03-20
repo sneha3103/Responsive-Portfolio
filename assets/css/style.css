@@ -11,6 +11,17 @@ body, html {
 	/* background-image: url("../images/regal.png"); */
 }
 
+#about, .container {
+    background-image: url("../images/regal.png");
+}
+
+#aboutme {
+    position: relative;
+    left: 135px;
+    color: #1b5288;
+    font-family: "Lato", sans-serif;
+}
+
 .pimg1, .pimg2, .pimg3, .pimg4, .pimg5 {
     position: relative;
     opacity: 0.70;
